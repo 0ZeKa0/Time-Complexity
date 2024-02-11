@@ -42,7 +42,11 @@ c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış ol
 ### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
 
 ```python
-  a=5
+  def toplam(n):
+    toplam = 0
+    for i in range(1, n + 1):
+        toplam += i
+    return toplam
 ```
 
   
