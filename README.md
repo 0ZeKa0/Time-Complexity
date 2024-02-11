@@ -10,5 +10,6 @@
 
 ## Big O Notasyonunun Matematiksel Tanımı
 
-  f(x) ve g(x) adındaki iki fonksiyonun **|f(x)|<=c.|g(x)|** eşitsizliğinde her **x>=k** için 
+  **f(x)** ve **g(x)** adındaki iki fonksiyonun **|f(x)|<=c.|g(x)|** eşitsizliğinde her **x>=k** için birer k ve c değerleri bulabilirsek 
+  **f(x)=O(g(x))** yani **f(x)**, **g(x)**'in Big O'sudur.
   
