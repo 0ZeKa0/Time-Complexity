@@ -69,7 +69,7 @@ $$
 f(n)<=n^2
 $$
 
-Big O notasyonunu bulabilmek için c ve k değerlerinin verilmesi gerekir.
+Big O notasyonunu bulabilmek için c ve k çifti için değer verilmesi gerekir.
 
 $$
 n>=1
