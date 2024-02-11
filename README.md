@@ -16,7 +16,7 @@
 ### Örneğin
 
 $$
-  6x^3 = O(x^4) ve c=1, k=6
+  6x^3 = O(x^4) 
 $$
 
  yukarıdaki ifade için 
@@ -28,7 +28,7 @@ $$
  diyebiliriz. 
 
  $$
- x^4 >= 6x^3
+ x^4 >= 6x^3  ve  c=1, k=6
  $$
 ```python
   a=5
