@@ -28,8 +28,15 @@ $$
  diyebiliriz. 
 
  $$
- x^4 >= 6x^3  ve  c=1, k=6
+ x^4 >= 6x^3  
  $$
+
+ ve  
+ 
+ $$
+ c=1, k=6
+ $$
+ 
 ```python
   a=5
 ```
