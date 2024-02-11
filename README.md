@@ -48,7 +48,8 @@ c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış ol
         toplam += i
     return toplam
 ```
- Bu kod parçasında for döngüsü n defa çalışacaktır. Girdi boyutu yani n arrtıkça çalışma zamanı da artacaktır. Bu sebeple işlem zamanı doğrusal olarak artacaktır.
+ Bu kod parçasında for döngüsü n defa çalışacaktır. Girdi boyutu yani n artıkça çalışma zamanı da artacaktır. Fakat çalışma zamanının artma şekli doğrusaldır.
+
 $$
 f(n)=1+2+3+...+n
 $$
@@ -80,13 +81,6 @@ $$
 c=1,k=1
 $$
 
-buradan anlaşılacağı üzere ilk n sayının toplamını gösteren
-Big O ifadesi aşağıdaki şekilde gösterilir.
-
-$$
-O(n^2)=f(n)
-$$
-  
 ### Faktoriyelli İfadelerin Big O Tahmini
 
 ```python
