@@ -25,7 +25,7 @@ $$
  x>= 6
 $$
 
- diyebiliriz. 
+ denir.
 
  $$
  x^4 >= 6x^3  
@@ -37,7 +37,8 @@ $$
  c=1, k=6
  $$
 
-c ve k reel sayıları bulunur.
+c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış olur.
+
 ```python
   a=5
 ```
