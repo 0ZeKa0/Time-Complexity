@@ -16,7 +16,7 @@
 ### Örneğin
 
 $$
-  6x^3 = O(x^4)
+  6x^3 = O(x^4) ve c=1, k=6
 $$
 
  yukarıdaki ifade için 
