@@ -1,8 +1,14 @@
-# Time-Complexity
-  Bir algoritmanın zaman karmaşıklığı genelde o algoritmanın çalışma süresinin input 
-  miktarına göre değişimini hesaplayan yaklaşıma denir. 
+# Zaman Karmaşıklığı
+  Bir algoritmanın zaman karmaşıklığı, genellikle algoritmanın çalışma süresinin, girdi boyutunun değişimine 
+  göre nasıl değiştiğini hesaplayan bir yaklaşım olarak tanımlanır.
 
 ## Big O Notasyonu Nedir?
  
-  Big O notasyonu, zaman karmaşıklığı hesaplarının inputa göre en iyi ve en kötü durumlarının
+  Big O notasyonu, bir algoritmanın zaman karmaşıklığını matematiksel olarak ifade ederek, algoritmanın 
+  en kötü durumda nasıl davranacağını ve girdi boyutuna göre ne kadar sürede çalışabileceğini belirlemeye 
+  yönelik bir araçtır.
+
+## Big O Notasyonunun Matematiksel Tanımı
+
+  f(x) ve g(x) adındaki iki fonksiyonun |f(x)| <=  c.|g(x)| 
   
