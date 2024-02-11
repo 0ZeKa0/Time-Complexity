@@ -14,6 +14,8 @@
   **f(x)=O(g(x))** yani **f(x)**, **g(x)**'in Big O'sudur.
 
 ### Örneğin
+
+  6x^2 + 5
 $$
   a=5
 $$
