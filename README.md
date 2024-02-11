@@ -1,6 +1,7 @@
 # Zaman Karmaşıklığı
   Bir algoritmanın zaman karmaşıklığı, genellikle algoritmanın çalışma süresinin, girdi boyutunun değişimine 
   göre nasıl değiştiğini hesaplayan bir yaklaşım olarak tanımlanır.
+![alternatif metin](https://miro.medium.com/v2/resize:fit:1400/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
 ## Big O Notasyonu 
  
@@ -49,6 +50,8 @@ $$
 
 c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış olur.
 
+###
+
 ### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
 
 ```python
@@ -91,6 +94,8 @@ $$
 c=1,k=1
 $$
 
+###
+
 ### Faktoriyelli İfadelerin Big O Tahmini
 
 ```python
@@ -101,4 +106,4 @@ $$
         return n * faktoriyel(n - 1)
 ```
 
-Yukarıdaki kod parçasında faktoriyelli işlem yapılabilinmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısının analiz edilmesi gerekir. 
+Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyelli işlem yapılabilinmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısının analiz edilmesi gerekir. 
