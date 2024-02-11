@@ -10,5 +10,5 @@
 
 ## Big O Notasyonunun Matematiksel Tanımı
 
-  f(x) ve g(x) adındaki iki fonksiyonun |f(x)| <=  c.|g(x)| 
+  f(x) ve g(x) adındaki iki fonksiyonun **|f(x)| <=  c.|g(x)|** eşitsizliğinde her **x >= k** için 
   
