@@ -7,7 +7,7 @@
  
   Big O notasyonu, bir algoritmanın zaman karmaşıklığını matematiksel olarak ifade ederek, algoritmanın 
   en kötü durumda nasıl davranacağını ve girdi boyutuna göre ne kadar sürede çalışabileceğini belirlemeye 
-  yönelik bir araçtır.  Zaman karmaşıklığı hesaplanırken girdi boyutu genelde n olarak verilirken Big O Notasyonu hesaplanırken verilen girdi boyutuna göre üst limit hesaplanır.
+  yönelik bir araçtır.  Zaman karmaşıklığı hesaplanırken girdi boyutu genelde n olarak verilirken Big O Notasyonu hesaplanırken verilen girdi boyutuna göre üst limit hesaplanır. Farklı algoritma karmaşıklıklarını karşılaştırmak ve görselleştirmek için büyük o karmaşıklık tablosu kullanılır ve algoritma performanslarının hızlı bir şekilde karşılaştırılması için önemlidir.
 
 ## Theta Notasyonu 
 
