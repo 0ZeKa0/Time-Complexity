@@ -79,3 +79,13 @@ $$
 c=1,k=1
 $$
   
+### Faktoriyelli İfadelerin Big O Tahmini
+
+```python
+  def faktoriyel(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktoriyel(n - 1)
+```
+
