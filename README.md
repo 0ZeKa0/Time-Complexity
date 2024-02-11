@@ -69,7 +69,7 @@ $$
 f(n)<=n^2
 $$
 
-Big O notasyonunu bulabilmek için c ve k çifti için değer verilmesi gerekir.
+Big O notasyonunu bulabilmek için c ve k çiftine değer verilmesi gerekir.
 
 $$
 n>=1
@@ -77,6 +77,13 @@ $$
 
 $$
 c=1,k=1
+$$
+
+buradan anlaşılacağı üzere Big O ilk n sayının toplamını gösteren
+Big O ifadesi aşağıdaki şekilde gösterilir.
+
+$$
+O(g(n^2))=f(n)
 $$
   
 ### Faktoriyelli İfadelerin Big O Tahmini
