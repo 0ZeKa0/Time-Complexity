@@ -51,7 +51,7 @@ $$
 
 c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış olur.
 
-###
+### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
 
 ### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
 
@@ -95,7 +95,8 @@ $$
 c=1,k=1
 $$
 
-###
+### Faktoriyelli İfadelerin Big O Tahmini
+
 
 ### Faktoriyelli İfadelerin Big O Tahmini
 
