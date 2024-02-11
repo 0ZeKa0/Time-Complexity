@@ -22,10 +22,14 @@ $$
  yukarıdaki ifade için 
 
 $$
- x>= 7
+ x>= 6
 $$
 
  diyebiliriz. 
+
+ $$
+ x^3 >= 7*x^2
+ $$
 ```python
   a=5
 ```
