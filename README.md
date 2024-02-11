@@ -79,7 +79,7 @@ $$
 c=1,k=1
 $$
 
-buradan anlaşılacağı üzere Big O ilk n sayının toplamını gösteren
+buradan anlaşılacağı üzere ilk n sayının toplamını gösteren
 Big O ifadesi aşağıdaki şekilde gösterilir.
 
 $$
