@@ -19,11 +19,13 @@ $$
   6x^3 = O(x^4)
 $$
 
- olduğunun ispatı aşağıda
+ yukarıdaki ifade için 
 
- $$
- 6x^3 = O(x^4)
- $$
+$$
+ x>= 7
+$$
+
+ diyebiliriz. 
 ```python
   a=5
 ```
