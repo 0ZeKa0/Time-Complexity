@@ -39,6 +39,8 @@ $$
 
 c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış olur.
 
+### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
+
 ```python
   a=5
 ```
