@@ -48,7 +48,7 @@ c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış ol
         toplam += i
     return toplam
 ```
- Bu kod parçasında for döngüsü n defa çalışacaktır. Girdi boyutu yani n artıkça çalışma zamanı da artacaktır. Fakat çalışma zamanının artma şekli doğrusaldır.
+ Bu kod parçasında for döngüsü n defa çalışacaktır. Girdi boyutu yani n artıkça çalışma zamanı da artacaktır ve çalışma zamanının artma şekli doğrusaldır.
 
 $$
 f(n)=1+2+3+...+n
