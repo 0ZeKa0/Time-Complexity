@@ -8,6 +8,16 @@
   en kötü durumda nasıl davranacağını ve girdi boyutuna göre ne kadar sürede çalışabileceğini belirlemeye 
   yönelik bir araçtır.
 
+## Theta Notasyonu Nedir?
+
+  Theta notasyonu, bir algoritmanın en iyi ve en kötü senaryo çalışma zamanlarını sınırlar. 
+
+## Omega Notasyonu Nedir?
+  
+  Bir algoritmanın en iyi senaryodaki çalışma zamanının alt sınırını ifade eder. Bu notasyon bir algoritmanın çalışma zamanının en iyi durumda ne kadar hızlı olabileceğini ifade eder.
+
+
+
 ## Big O Notasyonunun Matematiksel Tanımı
 
   **f(x)** ve **g(x)** adındaki iki fonksiyonun **|f(x)|<=c.|g(x)|** her **x>=k** için birer **k** ve **c** değerleri bulabilirsek 
@@ -91,3 +101,4 @@ $$
         return n * faktoriyel(n - 1)
 ```
 
+Yukarıdaki kod parçasında faktoriyelli işlem yapılabilinmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısının analiz edilmesi gerekir. 
