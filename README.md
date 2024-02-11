@@ -19,7 +19,7 @@ $$
   6x^3 = O(x^4)
 $$
 
- olduğunu ispatlayınız.
+ olduğunun ispatı aşağıda
 ```python
   a=5
 ```
