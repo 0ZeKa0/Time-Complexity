@@ -54,7 +54,7 @@ $$
 $$
 O(g(n))=f(n)
 $$
-ü
+
 $$
 1+2+3+...+n<=n+n+n+..+n
 $$
@@ -64,6 +64,7 @@ yukarıdaki eşitsizlikten anlaşılacağı üzere
 $$
 f(n)<=n.n
 $$
+
 $$
 f(n)<=n^2
 $$
@@ -72,6 +73,9 @@ Big O notasyonunu bulabilmek için c ve k değerlerinin verilmesi gerekir.
 
 $$
 n>=1
+$$
+
+$$
 c=1,k=1
 $$
   
