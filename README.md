@@ -1,13 +1,14 @@
 # Zaman Karmaşıklığı
   Bir algoritmanın zaman karmaşıklığı, genellikle algoritmanın çalışma süresinin, girdi boyutunun değişimine 
   göre nasıl değiştiğini hesaplayan bir yaklaşım olarak tanımlanır.
-![alternatif metin](https://miro.medium.com/v2/resize:fit:1400/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
 ## Big O Notasyonu 
  
   Big O notasyonu, bir algoritmanın zaman karmaşıklığını matematiksel olarak ifade ederek, algoritmanın 
   en kötü durumda nasıl davranacağını ve girdi boyutuna göre ne kadar sürede çalışabileceğini belirlemeye 
   yönelik bir araçtır.  Zaman karmaşıklığı hesaplanırken girdi boyutu genelde n olarak verilirken Big O Notasyonu hesaplanırken verilen girdi boyutuna göre üst limit hesaplanır. Farklı algoritma karmaşıklıklarını karşılaştırmak ve görselleştirmek için büyük o karmaşıklık tablosu kullanılır ve algoritma performanslarının hızlı bir şekilde karşılaştırılması için önemlidir.
+
+  ![alternatif metin](https://miro.medium.com/v2/resize:fit:1400/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
 ## Theta Notasyonu 
 
