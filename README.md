@@ -48,5 +48,26 @@ c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış ol
         toplam += i
     return toplam
 ```
+$$
+f(n)=1+2+3+...+n
+O(g(n))=f(n)
+$$
 
+$$
+1+2+3+...+n<=n+n+n+..+n
+$$
+
+yukarıdaki eşitsizlikten anlaşılacağı üzere 
+
+$$
+f(n)<=n.n
+f(n)<=n^2
+$$
+
+Big O notasyonunu bulabilmek için c ve k değerlerinin verilmesi gerekir.
+
+$$
+n>=1
+c=1,k=1
+$$
   
