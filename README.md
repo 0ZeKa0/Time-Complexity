@@ -28,7 +28,7 @@ $$
  diyebiliriz. 
 
  $$
- x^3 >= 7*x^2
+ x^4 >= 6x^3
  $$
 ```python
   a=5
