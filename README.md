@@ -20,6 +20,10 @@ $$
 $$
 
  olduğunun ispatı aşağıda
+
+ $$
+ 6x^3 = O(x^4)
+ $$
 ```python
   a=5
 ```
