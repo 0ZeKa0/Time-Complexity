@@ -31,12 +31,13 @@ $$
  x^4 >= 6x^3  
  $$
 
- ve  
+ yukarıdaki ifade için  
  
  $$
  c=1, k=6
  $$
- 
+
+c ve k reel sayıları bulunur.
 ```python
   a=5
 ```
