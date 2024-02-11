@@ -2,17 +2,17 @@
   Bir algoritmanın zaman karmaşıklığı, genellikle algoritmanın çalışma süresinin, girdi boyutunun değişimine 
   göre nasıl değiştiğini hesaplayan bir yaklaşım olarak tanımlanır.
 
-## Big O Notasyonu Nedir?
+## Big O Notasyonu 
  
   Big O notasyonu, bir algoritmanın zaman karmaşıklığını matematiksel olarak ifade ederek, algoritmanın 
   en kötü durumda nasıl davranacağını ve girdi boyutuna göre ne kadar sürede çalışabileceğini belirlemeye 
-  yönelik bir araçtır.
+  yönelik bir araçtır.  Zaman karmaşıklığı hesaplanırken girdi boyutu genelde n olarak verilirken Big O Notasyonu hesaplanırken verilen girdi boyutuna göre üst limit hesaplanır.
 
-## Theta Notasyonu Nedir?
+## Theta Notasyonu 
 
   Theta notasyonu, bir algoritmanın en iyi ve en kötü senaryo çalışma zamanlarını sınırlar. 
 
-## Omega Notasyonu Nedir?
+## Omega Notasyonu 
   
   Bir algoritmanın en iyi senaryodaki çalışma zamanının alt sınırını ifade eder. Bu notasyon bir algoritmanın çalışma zamanının en iyi durumda ne kadar hızlı olabileceğini ifade eder.
 
