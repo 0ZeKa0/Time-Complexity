@@ -13,9 +13,9 @@
   **f(x)** ve **g(x)** adındaki iki fonksiyonun **|f(x)|<=c.|g(x)|** her **x>=k** için birer **k** ve **c** değerleri bulabilirsek 
   **f(x)=O(g(x))** yani **f(x)**, **g(x)**'in Big O'sudur.
 
-$
+$$
   a=5
-$
+$$
 ```python
   a=5
 ```
