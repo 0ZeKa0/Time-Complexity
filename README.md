@@ -8,6 +8,7 @@
 
   ![alternatif metin](https://miro.medium.com/v2/resize:fit:1400/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
+1 < logn < n < nlogn <... < n!
 
 ## Theta Notasyonu 
 
@@ -75,7 +76,7 @@ Verilen kod parçasında işlem doğrudan formül kullanılarak yapıldığı i�
 ```
 yukardaki gibi for döngüsü kullanılmasına sebep olur. Döngü içindeki işlemin girdi boyutu kadar çalıştırılması sebebiyle bu kod parçasının karmaşıklığı **O(n)** olur.
 
-### İlk n Pozitif Tam Sayının Toplamın Örneklendirilmesi ve Büyük O Tahmini
+### İlk n Pozitif Tam Sayının Toplamın Örneklendirilmesi ve BAsimptotik Gösterimi
 
 $$
 Toplam=n(n+1)/2
@@ -132,7 +133,7 @@ $$
 
 Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyel işlemi yapılabilmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısı sabit olduğu için ve fonksiyon kendini girdi boyutu kadar çağıracağı için karmaşıklık **O(n)** olur.
 
-### İlk n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Büyük O Tahmini
+### İlk n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Asimptotik Gösterimi 
 
 n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin çarpımının istendiği bir fonksiyonda Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır.  
 
