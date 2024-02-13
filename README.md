@@ -76,7 +76,7 @@ $$
 Toplam=n(n+1)/2
 $$
 
-n adet pozitif tam sayının girdi olarak kullanıldığı bir fonksiyonun Big O notasyonunu hesaplayıp en büyük ettkiyi yapan terim dikkate alınır. 
+n adet pozitif tam sayının girdi olarak kullanıldığı bir fonksiyonun Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır. 
 
 $$
 f(n)=1+2+3+...+n
@@ -99,7 +99,7 @@ $$
 f(n)<=n^2
 $$
 
-Big O notasyonunu bulabilmek için c ve k çiftine değer verilmesi gerekir.
+Big O notasyonunu bulabilmek için bir c,k ikilisi seçilmelidir.
 
 $$
 n>=1
@@ -114,10 +114,7 @@ f(n)=O(n^2)
 $$
 
 
-### Faktoriyelli İfadelerin Big O Tahmini
-
-
-### Faktoriyelli İfadelerin Big O Tahmini
+### Faktoriyel İşlemini Yapan Fonksiyonun Karmaşıklığının Hesaplanması
 
 ```python
   def faktoriyel(n):
@@ -128,3 +125,6 @@ $$
 ```
 
 Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyelli işlem yapılabilinmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısının analiz edilmesi gerekir. 
+
+### Faktoriyelli İfadelerin Big O Tahmini
+
