@@ -51,23 +51,30 @@ $$
 
 c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış olur.
 
-### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
-
-### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
-
-
-$$
-Toplam=n(n+1)/2
-$$
+### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Fonksiyon Karmaşıklığı Hesabı
 
 ```python
-  def toplam(n):
+  def gauss_toplam(n):
+    return (n * (n + 1)) // 2
+
+```
+Verilen kod parçasında işlem doğrudan formül kullanılarak yapıldığı için zaman karmaşıklığı O(1) olur. Aynı işlemin formülsüz yapılması 
+
+```python
+    def toplam(n):
     toplam = 0
     for i in range(1, n + 1):
         toplam += i
     return toplam
+
 ```
- Bu kod parçasında for döngüsü n defa çalışacaktır. Girdi boyutu yani n artıkça çalışma zamanı da artacaktır ve çalışma zamanının artma şekli doğrusaldır.
+yukardaki gibi for döngüsü kullanılmaya sebep olur. Döngü içindeki işlemin girdi boyutu kadar çalıştırılması sebebiyle bu kod parçasının karmaşıklığı O(n) olur.
+
+### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
+
+$$
+Toplam=n(n+1)/2
+$$
 
 $$
 f(n)=1+2+3+...+n
