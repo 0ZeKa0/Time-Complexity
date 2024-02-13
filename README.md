@@ -74,7 +74,7 @@ $$
 Toplam=n(n+1)/2
 $$
 
-n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin toplamının istendiği bir fonksiyonun Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır. 
+n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin toplamının istendiği bir fonksiyonda Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır. 
 
 $$
 f(n)=1+2+3+...+n
@@ -127,7 +127,7 @@ Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyel işlemi yapı
 
 ### İlk n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Büyük O Tahmini
 
-n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin çarpımının istendiği bir fonksiyonun Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır.  
+n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin çarpımının istendiği bir fonksiyonda Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır.  
 
 $$
 f(n)=1.2.3.4.5...n
