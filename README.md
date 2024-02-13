@@ -13,7 +13,7 @@
   Theta notasyonu, bir algoritmanın en iyi ve en kötü senaryo çalışma zamanlarını sınırlar. 
   
 ## Theta Notasyonu Matematiksel Tanımı
- **f(x)** ve **g(x)** adındaki iki fonksiyonun **c1.|g(x)|<=|f(x)|<=c2.|g(x)|**   için birer **k1**, **k2** ve **c** değerleri bulabilirsek 
+ **f(x)** ve **g(x)** adındaki iki fonksiyonun **c1.|g(x)|<=|f(x)|<=c2.|g(x)|**   için birer **c1**, **c2** ve **k** değerleri bulabilirsek 
   **f(x)=Θ(g(x))** yani **g(x)**, **f(x)**'in Thetasıdır.
 
 ## Omega Notasyonu 
