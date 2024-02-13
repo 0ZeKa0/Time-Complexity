@@ -124,7 +124,7 @@ $$
         return n * faktoriyel(n - 1)
 ```
 
-Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyelli işlem yapılabilinmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısının analiz edilmesi gerekir. 
+Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyel işlemi yapılabilmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısı sabit olduğu için ve fonksiyon kendini girdi boyutu kadar çağıracağı için karmaşıklık **O(n)** olur.
 
 ### Faktoriyelli İfadelerin Big O Tahmini
 
