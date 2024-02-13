@@ -11,17 +11,23 @@
 ## Theta Notasyonu 
 
   Theta notasyonu, bir algoritmanın en iyi ve en kötü senaryo çalışma zamanlarını sınırlar. 
+  
+## Theta Notasyonu Matematiksel Tanımı
+ **f(x)** ve **g(x)** adındaki iki fonksiyonun **c1.|g(x)|<=|f(x)|<=c2.|g(x)|**   için birer **k1**, **k2** ve **c** değerleri bulabilirsek 
+  **f(x)=Θ(g(x))** yani **g(x)**, **f(x)**'in Thetasıdır.
 
 ## Omega Notasyonu 
   
   Bir algoritmanın en iyi senaryodaki çalışma zamanının alt sınırını ifade eder. Bu notasyon bir algoritmanın çalışma zamanının en iyi durumda ne kadar hızlı olabileceğini ifade eder.
 
-
+## Omega Notasyonu Matematiksel Tanımı
+ **f(x)** ve **g(x)** adındaki iki fonksiyonun **|f(x)|>=c.|g(x)|** her **x>=k** için birer **k** ve **c** değerleri bulabilirsek 
+  **f(x)= Ω(g(x))** yani **g(x)**, **f(x)**'in Omegasıdır.
 
 ## Big O Notasyonunun Matematiksel Tanımı
 
-  **f(x)** ve **g(x)** adındaki iki fonksiyonun **|f(x)|<=c.|g(x)|** her **x>=k** için birer **k** ve **c** değerleri bulabilirsek 
-  **f(x)=O(g(x))** yani **f(x)**, **g(x)**'in Big O'sudur.
+  **f(x)** ve **g(x)** adındaki iki fonksiyonun **|f(x)|<=c.|g(x)|** her **x>=k** için birer **k1** ve **k2** ve **c** değerleri bulabilirsek 
+  **f(x)=O(g(x))** yani **g(x)**, **f(x)**'in Big O'sudur.
 
 ### Örneğin
 
@@ -74,7 +80,7 @@ $$
 Toplam=n(n+1)/2
 $$
 
-n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin toplamının istendiği bir fonksiyonda Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır. 
+n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin toplamının istendiği bir fonksiyonda Big O notasyonu hesaplanırken en büyük etkiyi yapan terim dikkate alınır. 
 
 $$
 f(n)=1+2+3+...+n
