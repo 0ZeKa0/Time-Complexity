@@ -9,7 +9,9 @@
   ![alternatif metin](https://miro.medium.com/v2/resize:fit:1400/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
   $$
-  1<logn<n^1/2<n<nlogn<n^2<n^3<...<2^n<3^n<...<n^n
+
+  1 < logn < n^1/2 < n < nlogn < n^2 < n^3 < ... < 2^n < 3^n < ... < n^n
+  
   $$
 
 ## Theta Notasyonu 
