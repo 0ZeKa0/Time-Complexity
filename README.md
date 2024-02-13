@@ -114,7 +114,7 @@ f(n)=O(n^2)
 $$
 
 
-### Faktoriyel İşlemini Yapan Fonksiyonun Karmaşıklığının Hesaplanması
+### n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Fonksiyon Karmaşıklığı Hesabı
 
 ```python
   def faktoriyel(n):
@@ -126,5 +126,9 @@ $$
 
 Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyel işlemi yapılabilmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısı sabit olduğu için ve fonksiyon kendini girdi boyutu kadar çağıracağı için karmaşıklık **O(n)** olur.
 
-### Faktoriyelli İfadelerin Big O Tahmini
+### n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Büyük O Tahmini
+
+$$
+f(n)=1.2.3.4.5...n
+$$
 
