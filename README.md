@@ -55,6 +55,11 @@ c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış ol
 
 ### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
 
+
+$$
+Toplam=n(n+1)/2
+$$
+
 ```python
   def toplam(n):
     toplam = 0
