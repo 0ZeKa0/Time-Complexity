@@ -76,7 +76,7 @@ Verilen kod parçasında işlem doğrudan formül kullanılarak yapıldığı i�
 ```
 yukardaki gibi for döngüsü kullanılmasına sebep olur. Döngü içindeki işlemin girdi boyutu kadar çalıştırılması sebebiyle bu kod parçasının karmaşıklığı **O(n)** olur.
 
-### İlk n Pozitif Tam Sayının Toplamın Örneklendirilmesi ve BAsimptotik Gösterimi
+### İlk n Pozitif Tam Sayının Toplamın Örneklendirilmesi ve Asimptotik Gösterimi
 
 $$
 Toplam=n(n+1)/2
