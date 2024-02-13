@@ -51,7 +51,7 @@ $$
 
 c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış olur.
 
-### İlk n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Fonksiyon Karmaşıklığı Hesabı
+### İlk n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Fonksiyon Karmaşıklık Hesabı
 
 ```python
   def gauss_toplam(n):
@@ -70,13 +70,13 @@ Verilen kod parçasında işlem doğrudan formül kullanılarak yapıldığı i�
 ```
 yukardaki gibi for döngüsü kullanılmasına sebep olur. Döngü içindeki işlemin girdi boyutu kadar çalıştırılması sebebiyle bu kod parçasının karmaşıklığı **O(n)** olur.
 
-### İlk n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
+### İlk n Pozitif Tam Sayının Toplamın Örneklendirilmesi ve Büyük O Tahmini
 
 $$
 Toplam=n(n+1)/2
 $$
 
-n adet pozitif tam sayının girdi olarak kullanıldığı bir fonksiyonun Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır. 
+n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin toplamının istendiği bir fonksiyonun Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır. 
 
 $$
 f(n)=1+2+3+...+n
@@ -109,12 +109,13 @@ $$
 c=1,k=1
 $$
 
+
 $$
 f(n)=O(n^2)
 $$
 
 
-### İlk n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Fonksiyon Karmaşıklığı Hesabı
+### İlk n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Fonksiyon Karmaşıklık Hesabı
 
 ```python
   def faktoriyel(n):
@@ -127,6 +128,8 @@ $$
 Yukarıdaki kod parçasında girdinin n olduğu durumda faktoriyel işlemi yapılabilmesi için rekürsif yaklaşım tercih edildi. Bu yaklaşımda fonksiyonun her bir çağrısı için yapılan işlem sayısı sabit olduğu için ve fonksiyon kendini girdi boyutu kadar çağıracağı için karmaşıklık **O(n)** olur.
 
 ### İlk n Pozitif Tam Sayının Çarpımının Örneklendirilmesi ve Büyük O Tahmini
+
+n adet pozitif tam sayının girdi olarak kullanıldığı ve bu girdinin çarpımının istendiği bir fonksiyonun Big O notasyonunu hesaplanırken en büyük etkiyi yapan terim dikkate alınır.  
 
 $$
 f(n)=1.2.3.4.5...n
@@ -143,6 +146,8 @@ $$
 $$
 f(n)<=n^n, n>=1
 $$
+
+n'nin 1'den büyük olduğu durumlarda bir c,k ikilisi seçeriz.
 
 $$
 g(n)=n^n, c=1, k=1
