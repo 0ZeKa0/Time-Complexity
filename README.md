@@ -147,7 +147,7 @@ $$
 f(n)<=n^n, n>=1
 $$
 
-n'nin 1'den büyük olduğu durumlarda bir c,k ikilisi seçeriz.
+n'nin 1'den büyük olduğu durumlar için c,k ikilisi seçeriz.
 
 $$
 g(n)=n^n, c=1, k=1
