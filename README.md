@@ -58,7 +58,7 @@ c ve k reel sayıları bulunur. Bu sebeple ifadenin doğruluğu ispatlanmış ol
     return (n * (n + 1)) // 2
 
 ```
-Verilen kod parçasında işlem doğrudan formül kullanılarak yapıldığı için zaman karmaşıklığı O(1) olur. Aynı işlemin formülsüz yapılması 
+Verilen kod parçasında işlem doğrudan formül kullanılarak yapıldığı için zaman karmaşıklığı **O(1)** olur. Aynı işlemin formülsüz yapılması 
 
 ```python
     def toplam(n):
@@ -68,13 +68,15 @@ Verilen kod parçasında işlem doğrudan formül kullanılarak yapıldığı i�
     return toplam
 
 ```
-yukardaki gibi for döngüsü kullanılmaya sebep olur. Döngü içindeki işlemin girdi boyutu kadar çalıştırılması sebebiyle bu kod parçasının karmaşıklığı O(n) olur.
+yukardaki gibi for döngüsü kullanılmasına sebep olur. Döngü içindeki işlemin girdi boyutu kadar çalıştırılması sebebiyle bu kod parçasının karmaşıklığı **O(n)** olur.
 
 ### n Pozitif Tam Sayının Toplamınn Örneklendirilmesi ve Büyük O Tahmini
 
 $$
 Toplam=n(n+1)/2
 $$
+
+n adet pozitif tam sayının girdi olarak kullanıldığı bir fonksiyonun Big O notasyonunu hesaplayıp en büyük ettkiyi yapan terim dikkate alınır. 
 
 $$
 f(n)=1+2+3+...+n
@@ -106,6 +108,11 @@ $$
 $$
 c=1,k=1
 $$
+
+$$
+f(n)=O(n^2)
+$$
+
 
 ### Faktoriyelli İfadelerin Big O Tahmini
 
